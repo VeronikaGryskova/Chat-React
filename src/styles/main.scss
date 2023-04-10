@@ -1,0 +1,11 @@
+@import "./components/components.scss";
+* {
+  padding: 0;
+  margin: 0;
+}
+.App {
+  display: flex;
+  background: url(../img/icons/background.svg) no-repeat;
+
+  background-size: cover;
+}

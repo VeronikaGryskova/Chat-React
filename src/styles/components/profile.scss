@@ -1,0 +1,193 @@
+.profile {
+  width: 200px;
+  height: 100vh;
+  position: relative;
+  background: #d9d9db;
+  mix-blend-mode: normal;
+
+  &_information {
+    padding-top: 15px;
+    padding-left: 20px;
+
+    opacity: 0.8;
+  }
+  &_avatar {
+    background: url(../../img/avatar.svg);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+  }
+  &_name {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    .username {
+      font-family: "Lato";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 19px;
+
+      color: #000000;
+    }
+    .status {
+      background: url(../../img/icons/status_online.svg) center center no-repeat;
+      width: 8px;
+      height: 8px;
+    }
+  }
+  &_description {
+    margin-top: 4px;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #5f6164;
+  }
+  &_social {
+    margin-top: 20px;
+  }
+  .socialList {
+    padding: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    li {
+      list-style-type: none;
+    }
+  }
+  &_connection {
+    margin-top: 19px;
+    display: flex;
+    gap: 4px;
+    .message {
+      cursor: pointer;
+      width: 134px;
+      height: 25px;
+      background: #3577ef;
+      border: 0;
+      border-radius: 5px;
+
+      font-family: "Lato";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 13px;
+      line-height: 16px;
+
+      color: #ffffff;
+    }
+    .toggle {
+      cursor: pointer;
+      width: 25px;
+      height: 25px;
+      border: 0;
+      border-radius: 5px;
+      background: #3577ef;
+      &_icon {
+        height: 7px;
+        background: url(../../img/icons/toggle.svg) center center no-repeat;
+      }
+    }
+  }
+  &_username {
+    margin-top: 14px;
+    &_title {
+      font-family: "Lato";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 14px;
+
+      color: #5f6164;
+    }
+    &_name {
+      margin-top: 2px;
+      font-family: "Lato";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+
+      color: #000000;
+    }
+  }
+  &_email {
+    margin-top: 14px;
+    &_title {
+      font-family: "Lato";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 14px;
+
+      color: #5f6164;
+    }
+    &_name {
+      margin-top: 2px;
+      font-family: "Lato";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+
+      color: #000000;
+    }
+  }
+  &_skype {
+    margin-top: 14px;
+    &_title {
+      font-family: "Lato";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 14px;
+
+      color: #5f6164;
+    }
+    &_name {
+      margin-top: 2px;
+      font-family: "Lato";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+
+      color: #000000;
+    }
+  }
+  &_timezone {
+    margin-top: 14px;
+    &_title {
+      font-family: "Lato";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 14px;
+
+      color: #5f6164;
+    }
+    &_time {
+      margin-top: 2px;
+      font-family: "Lato";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+
+      color: #000000;
+    }
+  }
+  .pointer {
+    background: url(../../img/icons/pointer.svg) center center no-repeat;
+    width: 10px;
+    height: 16px;
+
+    position: absolute;
+    right: 23px;
+    bottom: 28px;
+  }
+}
